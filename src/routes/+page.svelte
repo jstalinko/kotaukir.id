@@ -6,9 +6,16 @@
   <section class="relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-b from-amber-500/10 via-slate-950 to-slate-950"></div>
     <div class="relative mx-auto flex max-w-6xl flex-col items-start gap-10 px-6 py-20">
-      <span class="inline-flex items-center gap-2 rounded-full border border-amber-400/40 bg-amber-400/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-amber-200">
-        KotaUkir.ID
-      </span>
+      <nav class="flex w-full flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <span class="inline-flex items-center gap-2 rounded-full border border-amber-400/40 bg-amber-400/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-amber-200">
+          KotaUkir.ID
+        </span>
+        <div class="flex flex-wrap gap-4 text-sm font-semibold text-slate-200">
+          <a class="transition hover:text-amber-200" href="/tentang-kami">Tentang Kami</a>
+          <a class="transition hover:text-amber-200" href="/visi-misi">Visi & Misi</a>
+          <a class="transition hover:text-amber-200" href="/buat-web">Buat Web</a>
+        </div>
+      </nav>
 
       <div class="space-y-6">
         <h1 class="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">

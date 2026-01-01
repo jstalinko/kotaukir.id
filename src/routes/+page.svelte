@@ -7,7 +7,9 @@
     <div class="absolute inset-0 bg-gradient-to-b from-amber-500/10 via-slate-950 to-slate-950"></div>
     <div class="relative mx-auto flex max-w-6xl flex-col items-start gap-10 px-6 py-20">
       <nav class="flex w-full flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <span class="inline-flex items-center gap-2 rounded-full border border-amber-400/40 bg-amber-400/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-amber-200">
+        <span
+          class="wood-float inline-flex items-center gap-2 rounded-full border border-amber-400/40 bg-amber-400/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-amber-200"
+        >
           KotaUkir.ID
         </span>
         <div class="flex flex-wrap gap-4 text-sm font-semibold text-slate-200">
@@ -25,6 +27,9 @@
           Bangun etalase digital yang menampilkan karya terbaik, mengelola pesanan, dan menjangkau pelanggan baru.
           KotaUkir.ID membuat pembuatan website furniture jadi cepat dan mudah.
         </p>
+        <div class="relative h-2 w-40 overflow-hidden rounded-full bg-slate-800/80 sm:w-56">
+          <span class="hero-woodline absolute inset-y-0 left-0 w-1/2 rounded-full"></span>
+        </div>
         <p class="text-base font-semibold text-amber-200">
           Membantu anda mengembakan usaha furniture!
         </p>
@@ -39,7 +44,7 @@
         </button>
       </div>
 
-      <div class="grid w-full gap-6 rounded-3xl border border-white/10 bg-slate-900/70 p-8 backdrop-blur sm:grid-cols-2">
+      <div class="fancy-border wood-pulse grid w-full gap-6 bg-slate-900/70 p-8 backdrop-blur sm:grid-cols-2">
         <div class="space-y-4">
           <h2 class="text-2xl font-semibold">Buat website furniture Anda</h2>
           <p class="text-slate-300">
@@ -57,7 +62,7 @@
   </section>
 
   <section class="mx-auto max-w-6xl px-6 pb-20">
-    <div class="grid gap-10 rounded-3xl border border-white/10 bg-slate-900/60 p-10 md:grid-cols-[1.2fr_1fr]">
+    <div class="fancy-border grid gap-10 bg-slate-900/60 p-10 md:grid-cols-[1.2fr_1fr]">
       <div class="space-y-6">
         <h2 class="text-3xl font-semibold">Hanya 3 langkah</h2>
         <p class="text-slate-300">
@@ -87,21 +92,21 @@
           </li>
         </ul>
       </div>
-      <div class="flex flex-col justify-between gap-6 rounded-2xl border border-white/10 bg-slate-950/70 p-6">
+      <div class="fancy-border-sm flex flex-col justify-between gap-6 bg-slate-950/70 p-6">
         <div>
           <p class="text-sm uppercase tracking-[0.3em] text-slate-400">Dipercaya pengrajin</p>
           <p class="mt-3 text-2xl font-semibold">Tampilkan meja, sofa, dan kabinet kustom.</p>
         </div>
         <div class="space-y-4">
-          <div class="rounded-xl border border-white/10 bg-slate-900 p-4">
+          <div class="fancy-border-sm bg-slate-900 p-4">
             <p class="text-sm font-semibold text-amber-200">Template katalog</p>
             <p class="text-sm text-slate-400">Sorot variasi produk, material, dan waktu pengerjaan.</p>
           </div>
-          <div class="rounded-xl border border-white/10 bg-slate-900 p-4">
+          <div class="fancy-border-sm bg-slate-900 p-4">
             <p class="text-sm font-semibold text-amber-200">Kumpulkan lead</p>
             <p class="text-sm text-slate-400">Terima permintaan custom dan tindak lanjuti lebih cepat.</p>
           </div>
-          <div class="rounded-xl border border-white/10 bg-slate-900 p-4">
+          <div class="fancy-border-sm bg-slate-900 p-4">
             <p class="text-sm font-semibold text-amber-200">Siap mobile</p>
             <p class="text-sm text-slate-400">Tampilan responsif untuk ponsel dan tablet.</p>
           </div>
@@ -122,19 +127,19 @@
         </p>
       </div>
       <div class="grid gap-6 md:grid-cols-3">
-        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+        <div class="fancy-border-sm bg-slate-900/60 p-6">
           <h3 class="text-xl font-semibold">Etalase produk rapi</h3>
           <p class="mt-2 text-sm text-slate-400">
             Tata koleksi berdasarkan kategori, ukuran, dan bahan sehingga pembeli menemukan produk dengan cepat.
           </p>
         </div>
-        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+        <div class="fancy-border-sm bg-slate-900/60 p-6">
           <h3 class="text-xl font-semibold">Integrasi promosi</h3>
           <p class="mt-2 text-sm text-slate-400">
             Bagikan promo terbaru, paket bundling, dan karya unggulan langsung dari dashboard.
           </p>
         </div>
-        <div class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
+        <div class="fancy-border-sm bg-slate-900/60 p-6">
           <h3 class="text-xl font-semibold">Pesan & konsultasi</h3>
           <p class="mt-2 text-sm text-slate-400">
             Terhubung dengan pelanggan untuk konsultasi desain, estimasi harga, hingga jadwal pengiriman.

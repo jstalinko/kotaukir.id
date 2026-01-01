@@ -1,2 +1,76 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@layer components {
+  .fancy-border {
+    position: relative;
+    border-radius: 1.5rem;
+  }
+
+  .fancy-border-sm {
+    position: relative;
+    border-radius: 0.75rem;
+  }
+
+  .fancy-border::before,
+  .fancy-border-sm::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.6), rgba(59, 130, 246, 0.25), rgba(16, 185, 129, 0.2));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .wood-pulse {
+    animation: woodPulse 6s ease-in-out infinite;
+  }
+
+  .wood-float {
+    animation: woodFloat 4s ease-in-out infinite;
+  }
+
+  .hero-woodline {
+    background: linear-gradient(90deg, rgba(251, 191, 36, 0), rgba(251, 191, 36, 0.7), rgba(251, 191, 36, 0));
+    animation: woodGrain 4.5s ease-in-out infinite;
+  }
+}
+
+@keyframes woodPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 rgba(251, 191, 36, 0);
+  }
+  50% {
+    box-shadow: 0 0 32px rgba(251, 191, 36, 0.25);
+  }
+}
+
+@keyframes woodFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes woodGrain {
+  0% {
+    transform: translateX(-60%);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateX(0%);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateX(60%);
+    opacity: 0.2;
+  }
+}
